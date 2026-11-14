@@ -1,5 +1,5 @@
 #include<lpc21xx.h>
-#include"s_header.h"
+#include"header.h"
 void uart0_init(unsigned int baud)
 {
 unsigned int result=0,pclk;
