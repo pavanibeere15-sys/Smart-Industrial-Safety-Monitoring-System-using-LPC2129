@@ -16,8 +16,7 @@ U0DLL=result&0xFF;
 U0DLM=(result>>8)&0xFF;
 U0LCR=0x03;
 }
- 
- void uart0_tx(unsigned char data)
+  void uart0_tx(unsigned char data)
  {
  U0THR=data; while(((U0LSR>>5)&1)==0);
  }
