@@ -14,7 +14,7 @@ int main()
     IOSET0 = 7 << 17;
 	IODIR0 &= ~(1 << 30);   // PIR P0.30 as input
 IODIR0 &= ~(1 << 5);    // Flame P0.5 as input
-
+	
     while(1)
     {
 
