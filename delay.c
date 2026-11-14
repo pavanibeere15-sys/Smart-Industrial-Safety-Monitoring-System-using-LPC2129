@@ -1,5 +1,5 @@
 #include<lpc21xx.h>
-
+#include"header.h"
 void delay_sec(unsigned int sec)
 {
 T0PR=60000-1;
