@@ -1,5 +1,5 @@
 #include<lpc21xx.h>
-#include"s_header.h"
+#include"header.h"
 void lcd_data(unsigned char data)
 {
 IOCLR1=0xFE<<16;
