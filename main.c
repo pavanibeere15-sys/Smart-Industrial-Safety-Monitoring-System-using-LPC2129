@@ -1,4 +1,4 @@
-#include"s_header.h"
+#include"header.h"
 #define temp_thre 40
 int main()
 {
